@@ -15,7 +15,17 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Death by Heart Failure Prediction')
+#st.title('Death by Heart Failure Prediction')
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <h1>Death by Heart Failure Prediction</h1>
+        <a href="https://github.com/yourusername/yourrepository" target="_blank">My GitHub Link</a>
+    </div>
+    """, unsafe_allow_html=True
+)
+
+
 
 # User input
 age= st.slider('Age', 1, 100)
