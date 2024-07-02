@@ -20,7 +20,7 @@ st.markdown(
     """
     <div style="text-align: center;">
         <h1>Death by Heart Failure Prediction</h1>
-        <a href="https://github.com/yourusername/yourrepository" target="_blank">My GitHub Link</a>
+        <a href="https://github.com/devesh0101/Heart_Failure_Prediction" target="_blank">GitHub Link</a>
     </div>
     """, unsafe_allow_html=True
 )
